@@ -1,0 +1,32 @@
+h1 {
+  text-align: center;
+}
+
+.introduction {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: blue;
+}
+
+.description {
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+  color: green;
+}
+
+.btn-google {
+  background-color: #4285f4;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 1px 1px 15px 0px black;;
+}
+
+.btn-google:hover {
+  scale: 1.1;
+  transition: transform 0.2s ease-in-out;
+}
