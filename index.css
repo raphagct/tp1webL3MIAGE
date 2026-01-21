@@ -1,32 +1,81 @@
-h1 {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
 }
 
-.introduction {
-  font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: blue;
-}
-
-.description {
-  font-size: 16px;
-  font-family: "Times New Roman", Times, serif;
-  color: green;
-}
-
-.btn-google {
-  background-color: #4285f4;
+body {
+  background: linear-gradient(to right, #984d38, #181e41);
   color: white;
-  padding: 10px 20px;
-  margin: 10px;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
-  font-size: 16px;
-  box-shadow: 1px 1px 15px 0px black;;
 }
 
-.btn-google:hover {
-  scale: 1.1;
-  transition: transform 0.2s ease-in-out;
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  font-size: 1.2rem;
+  margin: 0px 50px;
+}
+
+.nav span {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+  
+}
+
+.nav button {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 0.5rem 1rem;
+  border-radius: 1px;
+}
+
+.nav button:hover {
+  background-color: #357ae8;
+  cursor: pointer;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 1rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 0;
+  background-color: black;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 100px 150px;
+}
+
+.left-profile img {
+  background-color: white;
+  height: 300px;
+  width: 300px;
+  border-radius: 0% 50% 50% 50%;
+  object-fit: cover;
+}
+.right-profile {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
