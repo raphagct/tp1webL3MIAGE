@@ -44,6 +44,10 @@ body {
   cursor: pointer;
 }
 
+.hero h1 {
+  font-size: 80px;
+}
+
 .hero {
   text-align: center;
   padding: 4rem 1rem 0rem;
@@ -55,7 +59,8 @@ body {
 
 .socials {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 10rem;
   padding: 2rem 0;
   background-color: black;
 }
@@ -63,19 +68,83 @@ body {
 .profile {
   display: flex;
   align-items: center;
-  gap: 50px;
+  gap: 150px;
   padding: 100px 150px;
+  justify-content: center;
 }
 
 .left-profile img {
   background-color: white;
-  height: 300px;
-  width: 300px;
+  height: 500px;
+  width: 400px;
   border-radius: 0% 50% 50% 50%;
   object-fit: cover;
 }
 .right-profile {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 2rem;
+  max-width: 700px; 
 }
+
+.right-profile h2 {
+  font-size: 50px;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(rgba(255, 255, 255, 0.3));
+  margin: 3rem 150px;
+  border-radius: 2px;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+}
+
+.left-skill {
+  max-width: 700px; 
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.left-skill h3 {
+  font-size: 40px;
+}
+.left-skill .stats {
+  display: flex;
+  justify-content: start;
+  gap: 5rem;
+  font-size: 30px;
+
+}
+
+.right-skill {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.right-skill .ui-design, 
+.right-skill .web-design, 
+.right-skill .marketing {
+  padding: 20px 60px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  display: flex;
+  gap: 30px;
+}
+
+.container-infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
