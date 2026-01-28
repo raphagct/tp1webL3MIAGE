@@ -10,6 +10,11 @@ body {
   color: white;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -28,6 +33,7 @@ body {
   list-style-type: none;
   display: flex;
   gap: 1rem;
+  align-items: center;
   
 }
 
@@ -40,8 +46,23 @@ body {
 }
 
 .nav button:hover {
-  background-color: #357ae8;
+  background-color: white;
+  color: black;
   cursor: pointer;
+}
+
+.name {
+  display: flex;
+  gap: 30px;
+}
+
+.circle {
+  width: 80px;
+  height: 80px;
+  padding: 5px 15px;
+  border: 2px solid;
+  text-align: center;
+  border-radius: 50%;
 }
 
 .hero h1 {
@@ -146,5 +167,82 @@ hr {
   flex-direction: column;
   justify-content: center;
 }
+
+.mail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mail span {
+  font-size: 50px;
+}
+
+.mail a {
+  display: inline-block;
+  border: 2px solid white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1px;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.mail a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0;
+  gap: 2rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.links ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.links ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: #555;
+  border-radius: 50%;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.links ul li a:hover {
+  background-color: #777;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.links ul li a img {
+  width: 24px;
+  height: 24px;
+  filter: brightness(0) invert(1);
+  object-fit: contain;
+}
+
+.links span {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+
 
 
